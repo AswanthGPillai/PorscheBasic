@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+.card {
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-9px);
+    box-shadow: 0 4px 8px rgb(237, 240, 54);
+}
+
+.container {
+    margin-top: 150px;
+}
+.para{
+    margin-top: 50px;
+    color: #fff;
+}
+.first .navbar {
+    background-color: #000 !important;
+}
+.first .navbar .navbar-brand,
+.first .navbar .nav-link,
+.first .navbar .dropdown-toggle,
+.first .navbar .dropdown-item,
+.first .navbar .fw-bold,
+.first .navbar .btn {
+    color: #fff !important;
+}
+.first .navbar .dropdown-menu {
+    background-color: #222;
+}
+.first .navbar .dropdown-item {
+    color: #fff !important;
+}
+.first .navbar .dropdown-item:hover {
+    background-color: #333;
+}
+
+.buy {
+    background-color: #f1f0f0;
+    margin: 200px 100px;
+    padding: 20px;
+    border-radius: 4px;
+}
