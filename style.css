@@ -6,6 +6,10 @@
 body {
     background-color: #000;
 }
+.title {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
 .card {
     background-color: white;
     border: 1px solid #eee;
@@ -50,8 +54,28 @@ body {
 }
 
 .buy {
-    background-color: #f1f0f0;
+    background-image: url('./images/porsche-911-turbo-s-black-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f1f0f0; 
     margin: 200px 100px;
     padding: 20px;
     border-radius: 4px;
+}
+.buy>h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.buy,
+.buy label,
+.buy input,
+.buy textarea,
+.buy select,
+.buy button,
+.buy h2 {
+    color: #fff;
+}
+#emailHelp {
+    color: #8b8888d7;
 }
