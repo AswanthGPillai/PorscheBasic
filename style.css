@@ -25,12 +25,13 @@ body {
     box-shadow: 0 4px 8px rgb(237, 240, 54);
 }
 
+
 .container {
     margin-top: 150px;
 }
 .para{
     margin-top: 50px;
-    color: #fff;
+    color: #ffffff63;
 }
 .first .navbar {
     background-color: #000 !important;
